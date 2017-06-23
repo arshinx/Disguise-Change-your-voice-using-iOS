@@ -24,4 +24,6 @@ class ViewController: UIViewController {
 }
 
 // Actions
-
+extension ViewController {
+    
+}
