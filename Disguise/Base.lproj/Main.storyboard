@@ -89,7 +89,7 @@
                         <viewControllerLayoutGuide type="top" id="ou6-aH-uVU"/>
                         <viewControllerLayoutGuide type="bottom" id="CIE-g1-WcQ"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Nqj-Um-cW8" customClass="PlaySoundsViewController">
+                    <view key="view" contentMode="scaleToFill" id="Nqj-Um-cW8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -183,17 +183,15 @@
                             <constraint firstItem="fDb-s3-HV3" firstAttribute="centerX" secondItem="Nqj-Um-cW8" secondAttribute="centerX" id="h1F-6q-vaG"/>
                             <constraint firstItem="CIE-g1-WcQ" firstAttribute="top" secondItem="fDb-s3-HV3" secondAttribute="bottom" id="nxz-V0-Cc2"/>
                         </constraints>
-                        <connections>
-                            <outlet property="echoButton" destination="MD9-aU-1HN" id="9V4-ZS-bE8"/>
-                            <outlet property="fastButton" destination="1vx-59-0G2" id="IbY-SX-InX"/>
-                            <outlet property="highpitchButton" destination="sgF-am-02v" id="oV5-MP-5E0"/>
-                            <outlet property="lowpitchButton" destination="PMI-uM-Vad" id="9MN-Xp-RTe"/>
-                            <outlet property="reverbButton" destination="gyz-PY-Ads" id="EfS-Wi-Drh"/>
-                        </connections>
                     </view>
                     <connections>
-                        <outlet property="slowButton" destination="DNh-7l-p32" id="qY0-MN-w3M"/>
-                        <outlet property="stopButton" destination="fFR-bm-nvT" id="e6n-JS-o73"/>
+                        <outlet property="echoButton" destination="MD9-aU-1HN" id="VUO-rs-rVE"/>
+                        <outlet property="fastButton" destination="1vx-59-0G2" id="rS0-pi-nRT"/>
+                        <outlet property="highpitchButton" destination="sgF-am-02v" id="VBM-Ye-Qrv"/>
+                        <outlet property="lowpitchButton" destination="PMI-uM-Vad" id="rQY-xr-6fq"/>
+                        <outlet property="reverbButton" destination="gyz-PY-Ads" id="TQs-E1-0df"/>
+                        <outlet property="slowButton" destination="DNh-7l-p32" id="C6E-rn-kFd"/>
+                        <outlet property="stopButton" destination="fFR-bm-nvT" id="E1D-Kg-Ya8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZcJ-Ni-eRf" userLabel="First Responder" sceneMemberID="firstResponder"/>
