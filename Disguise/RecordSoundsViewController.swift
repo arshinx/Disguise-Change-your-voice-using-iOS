@@ -52,20 +52,6 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         
     }
     
-    // Helper
-    func setUIState(isRecording:Bool, recordingText:String)
-    {
-        if (isRecording) {
-            recordingLabel.text = recordingText
-            stopButton.isEnabled = true
-            recordButton.isEnabled = false
-        } else {
-            stopButton.isEnabled = false
-            recordButton.isEnabled = true
-            recordingLabel.text = recordingText
-        }
-    }
-    
 }
 
 // Manage ViewController
@@ -95,6 +81,20 @@ extension RecordSoundsViewController {
             performSegue(withIdentifier: "stopRecording", sender: audioRecorder.url)
         } else {
             print("Recording was not succesful")
+        }
+    }
+    
+    // Helper
+    func setUIState(isRecording:Bool, recordingText:String)
+    {
+        if (isRecording) {
+            recordingLabel.text = recordingText
+            stopButton.isEnabled = true
+            recordButton.isEnabled = false
+        } else {
+            stopButton.isEnabled = false
+            recordButton.isEnabled = true
+            recordingLabel.text = recordingText
         }
     }
 }
