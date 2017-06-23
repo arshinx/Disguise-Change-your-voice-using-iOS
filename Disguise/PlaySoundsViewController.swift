@@ -27,6 +27,10 @@ class PlaySoundsViewController: UIViewController {
         
     }
     
+    @IBAction func stopButtonPressed(_Sender: UIButton) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
