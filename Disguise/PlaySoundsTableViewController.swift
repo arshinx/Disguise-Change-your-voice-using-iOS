@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PlaySoundsTableViewController: ViewController {
+class PlaySoundsTableViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
