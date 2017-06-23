@@ -92,12 +92,28 @@
                     <view key="view" contentMode="scaleToFill" id="Nqj-Um-cW8" customClass="PlaySoundsViewController">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Q6r-DC-cAo">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7vs-dm-NFX">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="0.010893417522311211" green="0.79868286848068237" blue="0.73097020387649536" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Q6r-DC-cAo" firstAttribute="leading" secondItem="Nqj-Um-cW8" secondAttribute="leading" id="K61-g1-WwL"/>
+                            <constraint firstAttribute="trailing" secondItem="Q6r-DC-cAo" secondAttribute="trailing" id="Mov-of-fFU"/>
+                            <constraint firstItem="CIE-g1-WcQ" firstAttribute="top" secondItem="Q6r-DC-cAo" secondAttribute="bottom" id="NoX-Ze-rqO"/>
+                            <constraint firstItem="Q6r-DC-cAo" firstAttribute="top" secondItem="ou6-aH-uVU" secondAttribute="bottom" id="Sp0-BF-8q1"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZcJ-Ni-eRf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1321" y="139"/>
+            <point key="canvasLocation" x="1320.8" y="138.98050974512745"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xqK-KF-cyj">
