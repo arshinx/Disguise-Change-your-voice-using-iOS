@@ -24,12 +24,6 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         recordingLabel.text = "Recording in Progress"
         stopButton.isEnabled = true
         recordButton.isEnabled = false
-    }
-    
-    @IBAction func stopRecording(_ sender: Any) {
-        stopButton.isEnabled = false
-        recordButton.isEnabled = true
-        recordingLabel.text = "Tap to Record"
         
         // Record Audio
         let dirPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
@@ -44,6 +38,13 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         audioRecorder.isMeteringEnabled = true
         audioRecorder.prepareToRecord()
         audioRecorder.record()
+    }
+    
+    @IBAction func stopRecording(_ sender: Any) {
+        stopButton.isEnabled = false
+        recordButton.isEnabled = true
+        recordingLabel.text = "Tap to Record"
+        
     }
     
 }
