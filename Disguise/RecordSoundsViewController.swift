@@ -32,7 +32,7 @@ class RecordSoundsViewController: UIViewController {
         recordingLabel.text = "Tap to Record"
         
         // Record Audio
-        
+        let dirPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
         
     }
     
