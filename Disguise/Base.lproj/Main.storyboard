@@ -69,6 +69,9 @@
                             <constraint firstItem="TGj-mI-riO" firstAttribute="top" secondItem="XmF-hA-wWS" secondAttribute="bottom" constant="8" id="smQ-cQ-Yr9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="recordingLabel" destination="TGj-mI-riO" id="vmh-LZ-a9c"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

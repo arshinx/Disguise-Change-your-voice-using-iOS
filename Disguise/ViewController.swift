@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // Outlets
+    @IBOutlet weak var recordingLabel: UILabel!
+    
     // Actions
     @IBAction func recordAudio(_ sender: Any) {
     }
