@@ -62,7 +62,13 @@ class PlaySoundsViewController: UIViewController {
         setupAudio()
         
         // Set Button UI
-        
+        setButtonUI(button: slowButton)
+        setButtonUI(button: fastButton)
+        setButtonUI(button: highpitchButton)
+        setButtonUI(button: lowpitchButton)
+        setButtonUI(button: echoButton)
+        setButtonUI(button: reverbButton)
+        setButtonUI(button: stopButton)
         
     }
     
