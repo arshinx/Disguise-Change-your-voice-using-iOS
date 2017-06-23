@@ -41,7 +41,7 @@ class RecordSoundsViewController: UIViewController {
         
         try! audioRecorder = AVAudioRecorder(url: filePath!, settings: [:])
         audioRecorder.isMeteringEnabled = true
-        
+        audioRecorder.prepareToRecord()
     }
     
 }
