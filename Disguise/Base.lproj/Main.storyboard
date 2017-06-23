@@ -105,14 +105,14 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="187.5" height="179.5"/>
                                                 <state key="normal" image="Slow"/>
                                                 <connections>
-                                                    <action selector="playSoundForButtonWith_Sender:" destination="uLh-WF-bLh" eventType="touchUpInside" id="NzP-iJ-JEk"/>
+                                                    <action selector="playSoundForButton:" destination="uLh-WF-bLh" eventType="touchUpInside" id="O4e-kp-ZtF"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1vx-59-0G2" userLabel="Fast Button">
                                                 <rect key="frame" x="187.5" y="0.0" width="187.5" height="179.5"/>
                                                 <state key="normal" image="Fast"/>
                                                 <connections>
-                                                    <action selector="playSoundForButtonWith_Sender:" destination="uLh-WF-bLh" eventType="touchUpInside" id="KYu-zh-FPF"/>
+                                                    <action selector="playSoundForButton:" destination="uLh-WF-bLh" eventType="touchUpInside" id="LNI-Zh-nNJ"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -124,14 +124,14 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="187.5" height="180"/>
                                                 <state key="normal" image="HighPitch"/>
                                                 <connections>
-                                                    <action selector="playSoundForButtonWith_Sender:" destination="uLh-WF-bLh" eventType="touchUpInside" id="WSI-L3-Xor"/>
+                                                    <action selector="playSoundForButton:" destination="uLh-WF-bLh" eventType="touchUpInside" id="Uec-cf-Wtc"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMI-uM-Vad" userLabel="Low Pitch Button">
                                                 <rect key="frame" x="187.5" y="0.0" width="187.5" height="180"/>
                                                 <state key="normal" image="LowPitch"/>
                                                 <connections>
-                                                    <action selector="playSoundForButtonWith_Sender:" destination="uLh-WF-bLh" eventType="touchUpInside" id="M3Y-0J-TvQ"/>
+                                                    <action selector="playSoundForButton:" destination="uLh-WF-bLh" eventType="touchUpInside" id="r46-hK-YCz"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -143,14 +143,14 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="187.5" height="179.5"/>
                                                 <state key="normal" image="Echo"/>
                                                 <connections>
-                                                    <action selector="playSoundForButtonWith_Sender:" destination="uLh-WF-bLh" eventType="touchUpInside" id="dcY-km-Jyv"/>
+                                                    <action selector="playSoundForButton:" destination="uLh-WF-bLh" eventType="touchUpInside" id="ml9-NT-YLQ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyz-PY-Ads" userLabel="Reverb Button">
                                                 <rect key="frame" x="187.5" y="0.0" width="187.5" height="179.5"/>
                                                 <state key="normal" image="Reverb"/>
                                                 <connections>
-                                                    <action selector="playSoundForButtonWith_Sender:" destination="uLh-WF-bLh" eventType="touchUpInside" id="NFl-t6-xcq"/>
+                                                    <action selector="playSoundForButton:" destination="uLh-WF-bLh" eventType="touchUpInside" id="SWe-OL-90x"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -187,13 +187,13 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="echoButton" destination="MD9-aU-1HN" id="VUO-rs-rVE"/>
-                        <outlet property="fastButton" destination="1vx-59-0G2" id="rS0-pi-nRT"/>
-                        <outlet property="highpitchButton" destination="sgF-am-02v" id="VBM-Ye-Qrv"/>
-                        <outlet property="lowpitchButton" destination="PMI-uM-Vad" id="rQY-xr-6fq"/>
-                        <outlet property="reverbButton" destination="gyz-PY-Ads" id="TQs-E1-0df"/>
-                        <outlet property="slowButton" destination="DNh-7l-p32" id="C6E-rn-kFd"/>
-                        <outlet property="stopButton" destination="fFR-bm-nvT" id="E1D-Kg-Ya8"/>
+                        <outlet property="echoButton" destination="MD9-aU-1HN" id="XXO-x8-Xkx"/>
+                        <outlet property="fastButton" destination="1vx-59-0G2" id="fuZ-mm-Exn"/>
+                        <outlet property="highpitchButton" destination="sgF-am-02v" id="OsR-0d-NjN"/>
+                        <outlet property="lowpitchButton" destination="PMI-uM-Vad" id="Kyg-ee-x3i"/>
+                        <outlet property="reverbButton" destination="gyz-PY-Ads" id="7kf-Dr-0dF"/>
+                        <outlet property="slowButton" destination="DNh-7l-p32" id="61Q-aA-jaK"/>
+                        <outlet property="stopButton" destination="fFR-bm-nvT" id="kmf-SE-QhB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZcJ-Ni-eRf" userLabel="First Responder" sceneMemberID="firstResponder"/>
