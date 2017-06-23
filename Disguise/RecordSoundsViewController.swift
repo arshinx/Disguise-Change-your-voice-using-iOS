@@ -73,7 +73,7 @@ extension RecordSoundsViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "stopRecording" {
-            let playSoundsVC = segue.destination as! PlaySoundsViewController
+            let playSoundsVC = segue.destination
         }
     }
 }
