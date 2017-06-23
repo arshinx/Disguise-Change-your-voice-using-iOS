@@ -24,11 +24,11 @@ class PlaySoundsViewController: UIViewController {
     
     // Actions
     @IBAction func playSoundForButton(_Sender: UIButton) {
-        
+        print("Play Sounds")
     }
     
     @IBAction func stopButtonPressed(_Sender: UIButton) {
-        
+        print("Stop Sounds")
     }
     
     override func viewDidLoad() {
