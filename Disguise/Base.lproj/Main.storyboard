@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xEy-kL-odB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="17A264c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xEy-kL-odB">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -168,16 +168,10 @@
                             <outlet property="highpitchButton" destination="sgF-am-02v" id="oV5-MP-5E0"/>
                             <outlet property="lowpitchButton" destination="PMI-uM-Vad" id="9MN-Xp-RTe"/>
                             <outlet property="reverbButton" destination="gyz-PY-Ads" id="EfS-Wi-Drh"/>
-                            <outlet property="slowButton" destination="DNh-7l-p32" id="R2r-qv-X4H"/>
                         </connections>
                     </view>
                     <connections>
-                        <outlet property="echoButton" destination="MD9-aU-1HN" id="jr8-Ve-DaB"/>
-                        <outlet property="fastButton" destination="1vx-59-0G2" id="TMz-RX-XJx"/>
-                        <outlet property="highpitchButton" destination="sgF-am-02v" id="ud3-Rk-Pmz"/>
-                        <outlet property="lowpitchButton" destination="PMI-uM-Vad" id="QhM-za-TLw"/>
-                        <outlet property="reverbButton" destination="gyz-PY-Ads" id="6Fb-Rg-xVT"/>
-                        <outlet property="slowButton" destination="DNh-7l-p32" id="j1o-qI-Me7"/>
+                        <outlet property="slowButton" destination="DNh-7l-p32" id="qY0-MN-w3M"/>
                         <outlet property="stopButton" destination="fFR-bm-nvT" id="e6n-JS-o73"/>
                     </connections>
                 </viewController>
