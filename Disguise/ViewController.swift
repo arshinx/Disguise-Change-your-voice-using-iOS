@@ -57,4 +57,17 @@ extension RecordSoundsViewController {
 // Helper Methods
 extension RecordSoundsViewController {
     
+    // Record Audio
+    func recordAudio() {
+        
+    }
+    
 }
+
+
+
+
+
+
+
+
