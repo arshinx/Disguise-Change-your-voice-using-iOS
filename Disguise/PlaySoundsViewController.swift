@@ -34,15 +34,15 @@ class PlaySoundsViewController: UIViewController {
     // Actions
     @IBAction func playSoundForButton(_ sender: UIButton) {
         
-        switch ButtonType(rawValue: sender.tag)! { // Add Switch Statement with slow and fast cases
+        switch ButtonType(rawValue: sender.tag)! {
         case .slow:
             playSound(rate: 0.5)
         case .fast:
             playSound(rate: 1.5)
         case .chipmunk:
-            playSound(rate: 0.5)
+            playSound(pitch: 1000)
         case .vader:
-            playSound(rate: 1.5)
+            playSound(pitch: -1000)
         case .echo:
             playSound(rate: 0.5)
         case .reverb:
