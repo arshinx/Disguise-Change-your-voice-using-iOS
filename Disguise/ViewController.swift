@@ -29,11 +29,11 @@ extension ViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Load")
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        print("Appear")
+        
     }
     
     override func didReceiveMemoryWarning() {
