@@ -46,7 +46,7 @@
                                 <color key="textColor" red="0.21960784489999999" green="0.0078431377190000002" blue="0.85490196939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCM-be-rXQ">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCM-be-rXQ">
                                 <rect key="frame" x="112" y="394" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="GOd-tK-7OI"/>
@@ -61,10 +61,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="XmF-hA-wWS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Ml-tC-Kr8"/>
-                            <constraint firstItem="fCM-be-rXQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="96" id="9DX-iD-KJl"/>
-                            <constraint firstItem="fCM-be-rXQ" firstAttribute="top" secondItem="TGj-mI-riO" secondAttribute="bottom" constant="8" id="JVt-MH-u6U"/>
                             <constraint firstAttribute="trailingMargin" secondItem="TGj-mI-riO" secondAttribute="trailing" constant="97" id="MI9-MJ-t37"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="fCM-be-rXQ" secondAttribute="trailing" constant="97" id="gVI-eW-XTn"/>
                             <constraint firstItem="XmF-hA-wWS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="147" id="gba-10-bQP"/>
                             <constraint firstItem="fCM-be-rXQ" firstAttribute="top" secondItem="TGj-mI-riO" secondAttribute="bottom" constant="8" id="jvK-34-99i"/>
                             <constraint firstItem="TGj-mI-riO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="96" id="rfJ-uQ-nj7"/>
@@ -81,6 +78,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="476" y="138.98050974512745"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YgQ-8O-efW">
+            <objects>
+                <viewController id="uLh-WF-bLh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ou6-aH-uVU"/>
+                        <viewControllerLayoutGuide type="bottom" id="CIE-g1-WcQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nqj-Um-cW8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZcJ-Ni-eRf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1321" y="139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xqK-KF-cyj">
