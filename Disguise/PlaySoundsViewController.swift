@@ -63,10 +63,19 @@ class PlaySoundsViewController: UIViewController {
         
         // Set Button UI
         
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
         configureUI(.notPlaying)
+    }
+}
+
+// Helpers
+extension PlaySoundsViewController {
+    
+    func setButtonUI(button: UIButton) {
+        button.imageView?.contentMode = .scaleAspectFit
     }
 }
 
