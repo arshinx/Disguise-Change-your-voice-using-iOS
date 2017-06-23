@@ -18,6 +18,10 @@ class ViewController: UIViewController {
         recordingLabel.text = "Recording in Progress"
     }
     
+    @IBAction func stopRecording(_ sender: Any) {
+        
+    }
+    
 }
 
 // Manage ViewController
