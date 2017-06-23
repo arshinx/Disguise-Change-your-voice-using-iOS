@@ -52,15 +52,6 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         
     }
     
-    // MARK: - Audio Recorder Delegate
-    func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
-        if flag {
-            performSegue(withIdentifier: "stopRecording", sender: audioRecorder.url)
-        } else {
-            print("Recording was not succesful")
-        }
-    }
-    
     // Helper
     func setUIState(isRecording:Bool, recordingText:String)
     {
@@ -91,6 +82,19 @@ extension RecordSoundsViewController {
             let playSoundsVC = segue.destination as! PlaySoundsViewController
             let recordedAudioURL = sender as! URL
             playSoundsVC.recordedAudioURL = recordedAudioURL
+        }
+    }
+}
+
+// MARK: - Audio Recorder Delegate & Helpers
+extension RecordSoundsViewController {
+    
+    // Audio Recorder Delegate
+    func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
+        if flag {
+            performSegue(withIdentifier: "stopRecording", sender: audioRecorder.url)
+        } else {
+            print("Recording was not succesful")
         }
     }
 }
