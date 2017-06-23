@@ -168,7 +168,7 @@
                             <outlet property="highpitchButton" destination="sgF-am-02v" id="oV5-MP-5E0"/>
                             <outlet property="lowpitchButton" destination="PMI-uM-Vad" id="9MN-Xp-RTe"/>
                             <outlet property="reverbButton" destination="gyz-PY-Ads" id="EfS-Wi-Drh"/>
-                            <outlet property="slowButton" destination="DNh-7l-p32" id="eb8-7q-VNs"/>
+                            <outlet property="slowButton" destination="DNh-7l-p32" id="R2r-qv-X4H"/>
                         </connections>
                     </view>
                 </viewController>
