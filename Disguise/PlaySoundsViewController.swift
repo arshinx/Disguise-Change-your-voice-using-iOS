@@ -80,6 +80,9 @@ class PlaySoundsViewController: UIViewController {
 // Helpers
 extension PlaySoundsViewController {
     
+    func setButtonUI(button: UIButton) {
+        button.imageView?.contentMode = .scaleAspectFit
+    }
     
 }
 
