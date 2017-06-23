@@ -41,9 +41,9 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     }
     
     @IBAction func stopRecording(_ sender: Any) {
-        stopButton.isEnabled = false
-        recordButton.isEnabled = true
-        recordingLabel.text = "Tap to Record"
+        
+        // UI Setup
+        setUIState(isRecording: false, recordingText: "Tap to Record")
         
         // Stop Recording
         audioRecorder.stop()
@@ -68,6 +68,10 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
             recordingLabel.text = recordingText
             stopButton.isEnabled = true
             recordButton.isEnabled = false
+        } else {
+            stopButton.isEnabled = false
+            recordButton.isEnabled = true
+            recordingLabel.text = recordingText
         }
     }
     
