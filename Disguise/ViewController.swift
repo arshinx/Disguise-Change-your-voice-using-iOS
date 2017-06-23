@@ -30,6 +30,9 @@ class RecordSoundsViewController: UIViewController {
         stopButton.isEnabled = false
         recordButton.isEnabled = true
         recordingLabel.text = "Tap to Record"
+        
+        let pathArray = [dirPath, recordingName],
+        let filePath = URL(string: pathArray.joined(separator: "/"))
     }
     
 }
@@ -60,6 +63,7 @@ extension RecordSoundsViewController {
     // Record Audio
     func recordAudio() {
         let dirPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
+        let recordingName = "recordedVoice.wav"
     }
     
 }
