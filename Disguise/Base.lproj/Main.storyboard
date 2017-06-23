@@ -140,7 +140,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fDb-s3-HV3">
                                 <rect key="frame" x="155.5" y="603" width="64" height="64"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFR-bm-nvT">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFR-bm-nvT" userLabel="Stop Button">
                                         <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="64" id="CB5-xX-9eR"/>
@@ -171,6 +171,9 @@
                             <outlet property="slowButton" destination="DNh-7l-p32" id="R2r-qv-X4H"/>
                         </connections>
                     </view>
+                    <connections>
+                        <outlet property="stopButton" destination="fFR-bm-nvT" id="0j9-Qy-cVG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZcJ-Ni-eRf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
