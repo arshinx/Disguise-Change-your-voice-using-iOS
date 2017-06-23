@@ -11,6 +11,9 @@ import AVFoundation
 
 class RecordSoundsViewController: UIViewController {
     
+    // Variables
+    var audioRecorder: AVAudioRecorder!
+    
     // Outlets
     @IBOutlet weak var recordingLabel: UILabel!
     @IBOutlet weak var recordButton: UIButton!
@@ -29,6 +32,7 @@ class RecordSoundsViewController: UIViewController {
         recordingLabel.text = "Tap to Record"
         
         // Record Audio
+        
         
     }
     
