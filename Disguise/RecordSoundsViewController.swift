@@ -33,6 +33,7 @@ class RecordSoundsViewController: UIViewController {
         
         // Record Audio
         let dirPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
+        let recordingName = "recordedVoice.wav"
         
     }
     
