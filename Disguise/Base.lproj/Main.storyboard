@@ -172,7 +172,13 @@
                         </connections>
                     </view>
                     <connections>
-                        <outlet property="stopButton" destination="fFR-bm-nvT" id="0j9-Qy-cVG"/>
+                        <outlet property="echoButton" destination="MD9-aU-1HN" id="jr8-Ve-DaB"/>
+                        <outlet property="fastButton" destination="1vx-59-0G2" id="TMz-RX-XJx"/>
+                        <outlet property="highpitchButton" destination="sgF-am-02v" id="ud3-Rk-Pmz"/>
+                        <outlet property="lowpitchButton" destination="PMI-uM-Vad" id="QhM-za-TLw"/>
+                        <outlet property="reverbButton" destination="gyz-PY-Ads" id="6Fb-Rg-xVT"/>
+                        <outlet property="slowButton" destination="DNh-7l-p32" id="j1o-qI-Me7"/>
+                        <outlet property="stopButton" destination="fFR-bm-nvT" id="e6n-JS-o73"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZcJ-Ni-eRf" userLabel="First Responder" sceneMemberID="firstResponder"/>
