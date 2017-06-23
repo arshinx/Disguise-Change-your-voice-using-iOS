@@ -69,4 +69,8 @@ extension RecordSoundsViewController {
         super.viewDidLoad()
         stopButton.isEnabled = false
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+    }
 }
