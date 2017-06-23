@@ -21,7 +21,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func stopRecording(_ sender: Any) {
-        
+        stopButton.isEnabled = true
+        recordButton.isEnabled = false
     }
     
 }
