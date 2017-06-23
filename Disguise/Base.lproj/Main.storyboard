@@ -112,11 +112,11 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="sAu-FX-eXF">
                                         <rect key="frame" x="0.0" y="513" width="375" height="90"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgF-am-02v">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgF-am-02v" userLabel="High Pitch Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="187.5" height="90"/>
                                                 <state key="normal" image="HighPitch"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMI-uM-Vad">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMI-uM-Vad" userLabel="Low Pitch Button">
                                                 <rect key="frame" x="187.5" y="0.0" width="187.5" height="90"/>
                                                 <state key="normal" image="LowPitch"/>
                                             </button>
