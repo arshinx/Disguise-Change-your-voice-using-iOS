@@ -23,7 +23,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     @IBAction func recordAudio(_ sender: Any) {
         
         // Set UI
-        
+        setUIState(isRecording: true, recordingText: "Recording in Progress")
         
         // Record Audio
         let dirPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
