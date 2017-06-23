@@ -97,4 +97,8 @@ extension RecordSoundsViewController {
             recordingLabel.text = recordingText
         }
     }
+    
+    func setButtonUI(button: UIButton) {
+        button.imageView?.contentMode = .scaleAspectFit
+    }
 }
