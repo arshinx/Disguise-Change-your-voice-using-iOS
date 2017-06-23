@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     // Outlets
     @IBOutlet weak var recordingLabel: UILabel!
     @IBOutlet weak var recordButton: UIButton!
+    @IBOutlet weak var stopButton: UIButton!
     
     // Actions
     @IBAction func recordAudio(_ sender: Any) {
