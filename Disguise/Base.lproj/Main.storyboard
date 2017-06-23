@@ -27,14 +27,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XmF-hA-wWS">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XmF-hA-wWS">
                                 <rect key="frame" x="112" y="167" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="364-o5-WWW"/>
                                     <constraint firstAttribute="width" constant="150" id="szm-nk-LXL"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="20"/>
-                                <state key="normal" title="Record">
+                                <state key="normal" image="Record">
                                     <color key="titleColor" red="0.64470500090000005" green="0.00076996444719999995" blue="0.084396499139999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -84,4 +83,7 @@
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Record" width="155" height="155"/>
+    </resources>
 </document>
