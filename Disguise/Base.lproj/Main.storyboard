@@ -90,7 +90,7 @@
                     <view key="view" contentMode="scaleToFill" id="Nqj-Um-cW8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.010893417522311211" green="0.79868286848068237" blue="0.73097020387649536" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZcJ-Ni-eRf" userLabel="First Responder" sceneMemberID="firstResponder"/>
