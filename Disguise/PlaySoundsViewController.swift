@@ -13,6 +13,14 @@ class PlaySoundsViewController: UIViewController {
     
     // Variables
     var recordedAudioURL: URL?
+    var audioFile:AVAudioFile!
+    var audioEngine:AVAudioEngine!
+    var audioPlayerNode: AVAudioPlayerNode!
+    var stopTimer: Timer!
+    
+    enum ButtonType: Int {
+        case slow = 0, fast, chipmunk, vader, echo, reverb
+    }
     
     // Outlets
     @IBOutlet weak var slowButton: UIButton!
