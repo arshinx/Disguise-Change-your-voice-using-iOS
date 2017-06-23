@@ -1,5 +1,5 @@
 //
-//  PlaySoundsTableViewController.swift
+//  PlaySoundsViewController.swift
 //  Disguise
 //
 //  Created by Arshin Jain on 6/23/17.
