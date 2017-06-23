@@ -137,10 +137,10 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fDb-s3-HV3">
-                                <rect key="frame" x="154.10983454256007" y="603" width="64" height="64"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fDb-s3-HV3">
+                                <rect key="frame" x="155.5" y="603" width="64" height="64"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFR-bm-nvT">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFR-bm-nvT">
                                         <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="64" id="CB5-xX-9eR"/>
@@ -149,9 +149,7 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="fFR-bm-nvT" firstAttribute="centerX" secondItem="fDb-s3-HV3" secondAttribute="centerX" id="BZB-PU-UPN"/>
                                     <constraint firstAttribute="height" constant="64" id="JWz-GH-ICJ"/>
-                                    <constraint firstAttribute="bottom" secondItem="fFR-bm-nvT" secondAttribute="bottom" id="nFU-Po-xTC"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -161,6 +159,7 @@
                             <constraint firstItem="Q6r-DC-cAo" firstAttribute="leading" secondItem="Nqj-Um-cW8" secondAttribute="leading" id="K61-g1-WwL"/>
                             <constraint firstAttribute="trailing" secondItem="Q6r-DC-cAo" secondAttribute="trailing" id="Mov-of-fFU"/>
                             <constraint firstItem="Q6r-DC-cAo" firstAttribute="top" secondItem="ou6-aH-uVU" secondAttribute="bottom" id="Sp0-BF-8q1"/>
+                            <constraint firstItem="fDb-s3-HV3" firstAttribute="centerX" secondItem="Nqj-Um-cW8" secondAttribute="centerX" id="h1F-6q-vaG"/>
                             <constraint firstItem="CIE-g1-WcQ" firstAttribute="top" secondItem="fDb-s3-HV3" secondAttribute="bottom" id="nxz-V0-Cc2"/>
                         </constraints>
                     </view>
