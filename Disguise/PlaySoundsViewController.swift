@@ -23,7 +23,9 @@ class PlaySoundsViewController: UIViewController {
     @IBOutlet weak var stopButton: UIButton!
     
     // Actions
-    
+    @IBAction func playSoundForButton(_Sender: UIButton) {
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
