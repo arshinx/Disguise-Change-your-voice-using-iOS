@@ -89,14 +89,8 @@ extension RecordSoundsViewController {
     // Helper
     func setUIState(isRecording:Bool, recordingText:String)
     {
-        if (isRecording) {
-            recordingLabel.text = recordingText
-            stopButton.isEnabled = true
-            recordButton.isEnabled = false
-        } else {
-            stopButton.isEnabled = false
-            recordButton.isEnabled = true
-            recordingLabel.text = recordingText
-        }
+        recordingLabel.text = recordingText
+        stopButton.isEnabled = isRecording ? true : false
+        recordButton.isEnabled = isRecording ? false : true
     }
 }
