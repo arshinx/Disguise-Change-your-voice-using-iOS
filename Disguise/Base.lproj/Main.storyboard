@@ -27,7 +27,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XmF-hA-wWS">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XmF-hA-wWS">
                                 <rect key="frame" x="112" y="167" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="364-o5-WWW"/>
@@ -41,13 +41,13 @@
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hef-QU-bS2"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Touch to Record" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGj-mI-riO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch to Record" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGj-mI-riO">
                                 <rect key="frame" x="112" y="325" width="150" height="17"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
                                 <color key="textColor" red="0.21960784489999999" green="0.0078431377190000002" blue="0.85490196939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCM-be-rXQ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCM-be-rXQ">
                                 <rect key="frame" x="112" y="350" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="GOd-tK-7OI"/>
@@ -67,6 +67,7 @@
                             <constraint firstItem="fCM-be-rXQ" firstAttribute="top" secondItem="TGj-mI-riO" secondAttribute="bottom" constant="8" id="JVt-MH-u6U"/>
                             <constraint firstAttribute="trailingMargin" secondItem="TGj-mI-riO" secondAttribute="trailing" constant="97" id="MI9-MJ-t37"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fCM-be-rXQ" secondAttribute="trailing" constant="97" id="gVI-eW-XTn"/>
+                            <constraint firstItem="XmF-hA-wWS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="147" id="gba-10-bQP"/>
                             <constraint firstItem="fCM-be-rXQ" firstAttribute="top" secondItem="TGj-mI-riO" secondAttribute="bottom" constant="8" id="jvK-34-99i"/>
                             <constraint firstItem="TGj-mI-riO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="96" id="rfJ-uQ-nj7"/>
                             <constraint firstItem="TGj-mI-riO" firstAttribute="top" secondItem="XmF-hA-wWS" secondAttribute="bottom" constant="8" id="smQ-cQ-Yr9"/>
