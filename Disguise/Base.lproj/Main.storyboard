@@ -46,7 +46,7 @@
                                 <color key="textColor" red="0.21960784489999999" green="0.0078431377190000002" blue="0.85490196939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCM-be-rXQ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCM-be-rXQ">
                                 <rect key="frame" x="112" y="394" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="GOd-tK-7OI"/>
@@ -55,12 +55,14 @@
                                 <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hBx-Qy-x7l"/>
+                                    <segue destination="uLh-WF-bLh" kind="show" id="Mla-Yg-6vA"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="XmF-hA-wWS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Ml-tC-Kr8"/>
+                            <constraint firstItem="fCM-be-rXQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F2s-E8-uyb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="TGj-mI-riO" secondAttribute="trailing" constant="97" id="MI9-MJ-t37"/>
                             <constraint firstItem="XmF-hA-wWS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="147" id="gba-10-bQP"/>
                             <constraint firstItem="fCM-be-rXQ" firstAttribute="top" secondItem="TGj-mI-riO" secondAttribute="bottom" constant="8" id="jvK-34-99i"/>
