@@ -32,8 +32,16 @@ class PlaySoundsViewController: UIViewController {
     @IBOutlet weak var stopButton: UIButton!
     
     // Actions
-    @IBAction func playSoundForButton(_Sender: UIButton) {
-        print("Play Sounds")
+    @IBAction func playSoundForButton(_ sender: UIButton) {
+        
+        switch ButtonType(rawValue: sender.tag)! {
+        case .slow:
+            playSound(rate: 0.5)
+        case .fast:
+            playSound(rate: 1.5)
+        default:
+            <#code#>
+        }
     }
     
     @IBAction func stopButtonPressed(_Sender: UIButton) {
