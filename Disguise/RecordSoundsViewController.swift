@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class RecordSoundsViewController: UIViewController {
     
@@ -26,6 +27,9 @@ class RecordSoundsViewController: UIViewController {
         stopButton.isEnabled = false
         recordButton.isEnabled = true
         recordingLabel.text = "Tap to Record"
+        
+        // Record Audio
+        
     }
     
 }
