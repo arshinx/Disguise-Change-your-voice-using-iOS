@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RecordSoundsViewController.swift
 //  Disguise
 //
 //  Created by Arshin Jain on 6/22/17.
