@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PlaySoundsTableViewController: UIViewController {
+class PlaySoundsViewController: UIViewController {
     
     // Variables
     var recordURL: URL?

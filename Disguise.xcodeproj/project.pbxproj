@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		734944C31EFD01050025CFC8 /* PlaySoundsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734944C21EFD01050025CFC8 /* PlaySoundsTableViewController.swift */; };
 		735697451EFCA01D00DDB887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735697441EFCA01D00DDB887 /* AppDelegate.swift */; };
 		735697471EFCA01D00DDB887 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735697461EFCA01D00DDB887 /* RecordSoundsViewController.swift */; };
 		7356974A1EFCA01D00DDB887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735697481EFCA01D00DDB887 /* Main.storyboard */; };
@@ -17,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		734944C21EFD01050025CFC8 /* PlaySoundsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsTableViewController.swift; sourceTree = "<group>"; };
+		734944C71EFD02A20025CFC8 /* PlaySoundsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsTableViewController.swift; sourceTree = "<group>"; };
 		735697411EFCA01D00DDB887 /* Disguise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Disguise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		735697441EFCA01D00DDB887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		735697461EFCA01D00DDB887 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +63,7 @@
 				735697561EFCA05B00DDB887 /* Disguise.entitlements */,
 				735697441EFCA01D00DDB887 /* AppDelegate.swift */,
 				735697461EFCA01D00DDB887 /* RecordSoundsViewController.swift */,
-				734944C21EFD01050025CFC8 /* PlaySoundsTableViewController.swift */,
+				734944C71EFD02A20025CFC8 /* PlaySoundsTableViewController.swift */,
 				735697481EFCA01D00DDB887 /* Main.storyboard */,
 				7356974B1EFCA01D00DDB887 /* Assets.xcassets */,
 				7356974D1EFCA01D00DDB887 /* LaunchScreen.storyboard */,
@@ -157,7 +156,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				734944C31EFD01050025CFC8 /* PlaySoundsTableViewController.swift in Sources */,
 				735697471EFCA01D00DDB887 /* RecordSoundsViewController.swift in Sources */,
 				735697451EFCA01D00DDB887 /* AppDelegate.swift in Sources */,
 			);
