@@ -74,6 +74,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="recordButton" destination="XmF-hA-wWS" id="5lV-Qi-Sgz"/>
                         <outlet property="recordingLabel" destination="TGj-mI-riO" id="vmh-LZ-a9c"/>
                     </connections>
                 </viewController>
