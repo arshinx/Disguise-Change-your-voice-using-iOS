@@ -53,3 +53,8 @@ extension RecordSoundsViewController {
         
     }
 }
+
+// Helper Methods
+extension RecordSoundsViewController {
+    
+}
