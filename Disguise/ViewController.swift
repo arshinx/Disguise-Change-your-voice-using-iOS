@@ -59,7 +59,7 @@ extension RecordSoundsViewController {
     
     // Record Audio
     func recordAudio() {
-        
+        let dirPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
     }
     
 }
