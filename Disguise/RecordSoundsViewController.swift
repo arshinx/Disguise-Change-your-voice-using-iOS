@@ -59,6 +59,8 @@ extension RecordSoundsViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Disable Stop Button
         stopButton.isEnabled = false
     }
     
