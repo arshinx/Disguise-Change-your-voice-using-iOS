@@ -12,6 +12,7 @@
 		7356974A1EFCA01D00DDB887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735697481EFCA01D00DDB887 /* Main.storyboard */; };
 		7356974C1EFCA01D00DDB887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7356974B1EFCA01D00DDB887 /* Assets.xcassets */; };
 		7356974F1EFCA01D00DDB887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7356974D1EFCA01D00DDB887 /* LaunchScreen.storyboard */; };
+		735697591EFCA05B00DDB887 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 735697581EFCA05B00DDB887 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		7356974B1EFCA01D00DDB887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7356974E1EFCA01D00DDB887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		735697501EFCA01D00DDB887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		735697561EFCA05B00DDB887 /* Disguise.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Disguise.entitlements; sourceTree = "<group>"; };
+		735697581EFCA05B00DDB887 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				735697591EFCA05B00DDB887 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +44,7 @@
 			children = (
 				735697431EFCA01D00DDB887 /* Disguise */,
 				735697421EFCA01D00DDB887 /* Products */,
+				735697571EFCA05B00DDB887 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +59,7 @@
 		735697431EFCA01D00DDB887 /* Disguise */ = {
 			isa = PBXGroup;
 			children = (
+				735697561EFCA05B00DDB887 /* Disguise.entitlements */,
 				735697441EFCA01D00DDB887 /* AppDelegate.swift */,
 				735697461EFCA01D00DDB887 /* ViewController.swift */,
 				735697481EFCA01D00DDB887 /* Main.storyboard */,
@@ -62,6 +68,14 @@
 				735697501EFCA01D00DDB887 /* Info.plist */,
 			);
 			path = Disguise;
+			sourceTree = "<group>";
+		};
+		735697571EFCA05B00DDB887 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				735697581EFCA05B00DDB887 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +110,11 @@
 				TargetAttributes = {
 					735697401EFCA01D00DDB887 = {
 						CreatedOnToolsVersion = 9.0;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -269,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Disguise/Disguise.entitlements;
 				DEVELOPMENT_TEAM = 29YN3QBTM8;
 				INFOPLIST_FILE = Disguise/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -284,6 +304,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Disguise/Disguise.entitlements;
 				DEVELOPMENT_TEAM = 29YN3QBTM8;
 				INFOPLIST_FILE = Disguise/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
