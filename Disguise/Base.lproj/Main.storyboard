@@ -46,14 +46,13 @@
                                 <color key="textColor" red="0.21960784489999999" green="0.0078431377190000002" blue="0.85490196939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCM-be-rXQ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCM-be-rXQ">
                                 <rect key="frame" x="112" y="350" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="GOd-tK-7OI"/>
                                     <constraint firstAttribute="width" constant="150" id="U6o-Gc-OrP"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
-                                <state key="normal" title="Stop Recording"/>
+                                <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hBx-Qy-x7l"/>
                                 </connections>
@@ -85,5 +84,6 @@
     </scenes>
     <resources>
         <image name="Record" width="155" height="155"/>
+        <image name="Stop" width="155" height="155"/>
     </resources>
 </document>
