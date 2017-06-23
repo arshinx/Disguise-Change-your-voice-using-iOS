@@ -100,8 +100,12 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DNh-7l-p32" userLabel="Slow Button">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="603"/>
                                                 <state key="normal" image="Slow"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1vx-59-0G2" userLabel="Fast Button">
+                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="603"/>
+                                                <state key="normal" image="Fast"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -141,6 +145,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Fast" width="90" height="90"/>
         <image name="Record" width="155" height="155"/>
         <image name="Slow" width="90" height="90"/>
         <image name="Stop" width="155" height="155"/>
