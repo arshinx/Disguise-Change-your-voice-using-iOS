@@ -44,9 +44,9 @@ class PlaySoundsViewController: UIViewController {
         case .vader:
             playSound(pitch: -1000)
         case .echo:
-            playSound(rate: 0.5)
+            playSound(echo: true)
         case .reverb:
-            playSound(rate: 1.5)
+            playSound(reverb: true)
             
         }
     }
